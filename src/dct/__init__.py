@@ -1,0 +1,1 @@
+"""Diff Checker Tool package."""

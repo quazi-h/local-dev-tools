@@ -1,0 +1,12 @@
+#!/usr/bin/env -S uv run --script
+# /// script
+# requires-python = ">=3.12"
+# dependencies = ["cyclopts>=4.9"]
+# ///
+"""Development launcher for Markdown Previewer."""
+
+from mdp.cli import app
+
+
+if __name__ == "__main__":
+    app()
